@@ -5,26 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/redBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:textSize="80sp"
         android:layout_weight="1"
+        android:text="00:00"
         android:backgroundTint="#FF1111"
-        android:text="00:00" />
+        android:textSize="80sp" />
+
     <Button
         android:id="@+id/purpleBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:textSize="80sp"
-        android:text="00:00" />
+        android:layout_weight="1"
+        android:text="00:00"
+        android:textSize="80sp" />
 
 
 </LinearLayout>
